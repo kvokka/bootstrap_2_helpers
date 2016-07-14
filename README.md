@@ -1,5 +1,6 @@
 # Bootstrap2Helpers
-Short description and motivation.
+
+Export of bread_crumps and flush helpers from bootstrap2, patched to bootstrap 3
 
 ## Usage
 gem 'bootstrap_2_helpers'
