@@ -9,7 +9,7 @@ module Bootstrap2Helpers
   module Bootstrap
     module Rails
       class Engine < ::Rails::Engine
-         initializer 'twitter-bootstrap-rails.setup_helpers' do |app|
+        initializer 'twitter-bootstrap-rails.setup_helpers' do |app|
           app.config.to_prepare do
             ActionController::Base.send :include, BreadCrumbs
             ActionController::Base.send :helper, FlashBlockHelper
